@@ -1,0 +1,129 @@
+#mainPanel{
+    -fx-background-color:red;
+    -fx-spacing:0px;
+}
+#header{
+    -fx-pref-width:400;
+    -fx-pref-height:100;
+    -fx-background-color:#3e4756;
+    -fx-border-width:Opx;
+}
+#divider{
+    -fx-pref-width:400;
+    -fx-pref-height:20;
+    -fx-background-color:#dedede;
+    -fx-border-width:Opx;
+}
+#main{
+    -fx-pref-width:400;
+    -fx-pref-height:480;
+    -fx-background-color:#3e4756;
+    -fx-border-width:Opx;
+}
+.headerButton{
+    -fx-pref-width:100;
+    -fx-pref-height:100;
+    -fx-background-color: #ff8a8a;
+    -fx-border-width:Opx;
+}
+#btnSettings{
+    -fx-background-image:url(../images/gear-50.png);
+    -fx-background-repeat:no-repeat;
+    -fx-background-position:center;
+}
+#btnUser{
+    -fx-background-image:url(../images/user-50.png);
+    -fx-background-repeat:no-repeat;
+    -fx-background-position:center;
+}
+#btnTrophy{
+    -fx-background-image:url(../images/trophy-50.png);
+    -fx-background-repeat:no-repeat;
+    -fx-background-position:center;
+}
+#btnPower{
+    -fx-background-image:url(../images/shutdown-50.png);
+    -fx-background-repeat:no-repeat;
+    -fx-background-position:center;
+}
+#touchPanel{
+    -fx-pref-width: 400;
+    -fx-pref-height: 120;
+    -fx-background-color: #3E47556;
+}
+#leftTouchPanel{
+    -fx-pref-width: 200;
+    -fx-padding: 10;
+    -fx-alignment: center-left;
+}
+#rightTouchPanel{
+    -fx-pref-width: 200;
+    -fx-padding: 10;
+    -fx-alignment: center;
+}
+#lblTouchTiltle{
+    -fx-font-family: roboto;
+    -fx-font-weight:bold;
+    -fx-text-fill:#DEDEDE;
+    -fx-font-size:16px;
+}
+#txtTouchText{
+    -fx-font-family:roboto;
+    -fx-font-weight: 600;
+    -fx-fill: DEDEDE;
+    -fx-font-size:12px;
+}
+#btnToggle{
+    -fx-background-image: url(../Images/toggle-50.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-width: 70;
+    -fx-pref-height: 30;
+    -fx-background-color: #3e4756;
+}
+#lblToggle{
+    -fx-font-family: roboto;
+    -fx-font-weight:bold;
+    -fx-text-fill:#D7EE7C;
+    -fx-font-size:16px;
+}
+#autoPanel{
+    -fx-pref-width: 400;
+    -fx-pref-height: 120;
+    -fx-background-color:#3E4756;
+}
+#leftAutoPanel{
+    -fx-pref-width: 200;
+    -fx-padding: 10;
+    -fx-alignment: center-left;
+}
+#rightAutoPanel{
+    -fx-pref-width: 200;
+    -fx-padding: 10;
+    -fx-alignment: center;
+}
+#lblAutoTitle{
+    -fx-font-family: roboto;
+    -fx-font-weight: bold;
+    -fx-text-fill:#DEDEDE;
+    -fx-font-size: 16px;
+}
+#txtAutoText{
+    -fx-font-font-family: roboto;
+    -fx-font-weight: 600;
+    -fx-fill-: DEDEDE;
+    -fx-size: 12px;
+}
+#btnToggleA {
+    -fx-background-image: url(../images/toggle-50.png);
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-pref-height: 30;
+    -fx-background-color: #3e4756;
+}
+#lblToggleA{
+    -fx-font-family: roboto;
+    -fx-weight: bold;
+    -fx-text-fill: #D7EE7C;
+    -fx-font-size: 16px;
+}
